@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container > header {
+    background-image: url(../images/big-vivo-1920x450.webp);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+
+}
+
+.container > nav {
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container > article {
+    min-height: 400px;
+    width: 70%;
+    background-color: white;
+    float: left;
+}
+
+.container > aside {
+    min-height: 400px;
+    width: 30%;
+    background-color: lightgray;
+    float: right;
+}
+
+.container > footer {
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+.container > nav > a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container > nav > a:hover {
+    color: yellow; 
+    text-decoration: underline;
+}
+
+iframe[name=page] {
+    width: 100%;
+    min-height: 400px;
+}
+
+
+.images {
+    width: 150px;
+    height: 150px;
+}
+
+.card-news {
+    width: 200px;
+    height: 550px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    border: 1px solid grey;
+}
+
+.card-news h2, h5 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.card-news h2 {
+    height: 20px;
+    font-size: 18px;
+}
+
+.card-news p {
+    height: 20px;
+    font-size: 13px;
+}
+
+.card-news h5 {
+    font-size: 20px;
+    color: red;
+}
+
+
+.menu > a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.content > img {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+}
